@@ -84,7 +84,6 @@ public class ConsultationController {
             //return assigned test request to the current doctor
             return testRequestUpdateService.assignForConsultation(id,doctor);
 
-
         }catch (AppException e) {
             throw asBadRequest(e.getMessage());
         }

@@ -43,7 +43,6 @@ public class LabRequestController {
     private TestRequestFlowService testRequestFlowService;
 
 
-
     @Autowired
     private UserLoggedInService userLoggedInService;
 
