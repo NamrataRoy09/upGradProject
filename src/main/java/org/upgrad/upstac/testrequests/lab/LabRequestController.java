@@ -42,7 +42,6 @@ public class LabRequestController {
     @Autowired
     private TestRequestFlowService testRequestFlowService;
 
-
     @Autowired
     private UserLoggedInService userLoggedInService;
 
